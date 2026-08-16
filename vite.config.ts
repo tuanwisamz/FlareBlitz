@@ -206,15 +206,6 @@ function vitePluginStorageProxy(): Plugin {
 const plugins = [react(), tailwindcss(), jsxLocPlugin(), vitePluginManusRuntime(), vitePluginManusDebugCollector(), vitePluginStorageProxy()];
 
 export default defineConfig({
-  base: "/FlareBlitz/",
-  ...
-  build: {
-    outDir: "dist",
-    emptyOutDir: true,
-  },
-});
-
-export default defineConfig({
   plugins,
   resolve: {
     alias: {
@@ -226,7 +217,8 @@ export default defineConfig({
   envDir: path.resolve(import.meta.dirname),
   root: path.resolve(import.meta.dirname, "client"),
   build: {
-    outDir: path.resolve(import.meta.dirname, "dist/public"),
+    outDir: path.resolve(import.meta.dirname, "dist"),
+    base: "/FlareBlitz/",
     emptyOutDir: true,
   },
   server: {
