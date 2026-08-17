@@ -25,7 +25,7 @@ const categories: Category[] = [
     { name: "Ucampus", url: "https://ucampus.utp.edu.my/sitsvision/wrd/siw_lgn", note: "Student portal", icon: <span className="wordmark">U</span>, tone: "cobalt" },
     { name: "Ulearn", url: "https://ulearn.utp.edu.my/login/index.php", note: "Learning space", icon: <span className="wordmark">U</span>, tone: "sage" },
     { name: "USchedule", url: "https://cloud.timeedit.net/uscheduleutp/web", note: "Find your time", icon: <CalendarDays size={22} />, tone: "coral" },
-    { name: "UCS Report", url: "https://ucs.utp.edu.my/", note: "Academic reports", icon: <span className="wordmark">U</span>, tone: "marigold" },
+    { name: "UCS Report", url: "https://ucs.utp.edu.my/", note: "Academic reports", icon: <span className="wordmark">U</span>, tone: "yellow" },
     { name: "UBooking", url: "https://ubooking.utp.edu.my/", note: "Reserve a space", icon: <span className="wordmark">U</span>, tone: "cobalt" },
   ] },
   { id: "social", label: "Social Media", eyebrow: "03 · stay connected", description: "The channels that keep conversations, communities, and curiosity within reach.", icon: <MessageCircle size={20} />, tone: "coral", tools: [
@@ -45,7 +45,7 @@ const categories: Category[] = [
     { name: "Kimi", url: "https://www.kimi.ai/", note: "Go long-form", icon: <span className="wordmark">K</span>, tone: "purple" },
     { name: "DeepSeek", url: "https://deepseek.com/en/", note: "Dive deeper", icon: <span className="wordmark">D</span>, tone: "cobalt" },
     { name: "Perplexity", url: "https://www.perplexity.ai/", note: "Search with synthesis", icon: <Search size={22} />, tone: "cyan" },
-    { name: "Manus", url: "https://manus.im/app/QVLBhSZBBqzkzugkPL04qB", note: "Make it happen", icon: <Sparkles size={22} />, tone: "marigold" },
+    { name: "Manus", url: "https://manus.im/app/QVLBhSZBBqzkzugkPL04qB", note: "Make it happen", icon: <Sparkles size={22} />, tone: "yellow" },
   ] },
   { id: "sites", label: "Sites", eyebrow: "05 · build & deploy", description: "The platforms behind experiments, interfaces, infrastructure, and the next thing worth shipping.", icon: <Terminal size={20} />, tone: "cobalt", tools: [
     { name: "Vercel", url: "https://vercel.com/", note: "Deploy fast", icon: <span className="wordmark">V</span>, tone: "ink" },
@@ -55,7 +55,7 @@ const categories: Category[] = [
     { name: "Figma", url: "https://figma.com/", note: "Shape interfaces", icon: <span className="wordmark">F</span>, tone: "coral" },
     { name: "Supabase", url: "https://supabase.com/", note: "Build data", icon: <span className="wordmark">S</span>, tone: "green" },
     { name: "Firebase", url: "https://firebase.google.com/", note: "Prototype systems", icon: <span className="wordmark">F</span>, tone: "yellow" },
-    { name: "Cloudflare", url: "https://dash.cloudflare.com/login", note: "Protect the edge", icon: <Globe2 size={22} />, tone: "marigold" },
+    { name: "Cloudflare", url: "https://dash.cloudflare.com/login", note: "Protect the edge", icon: <Globe2 size={22} />, tone: "cyan" },
     { name: "Supahero", url: "https://supahero.io/", note: "Explore motion", icon: <Star size={22} />, tone: "coral" },
     { name: "React Bits", url: "https://reactbits.dev/", note: "Borrow a spark", icon: <span className="wordmark">R</span>, tone: "cobalt" },
   ] },
